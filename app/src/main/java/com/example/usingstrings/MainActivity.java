@@ -47,11 +47,4 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i("lifecycle", "OnStop called...");
     }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-
-        Log.i("lifecycle", "OnDestroy called....");
-    }
 }

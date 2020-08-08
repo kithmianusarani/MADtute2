@@ -52,6 +52,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
 
-        Log.i("lifecycle", "OnDestroy called...");
+        Log.i("lifecycle", "OnDestroy called....");
     }
 }
